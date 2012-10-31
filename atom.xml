@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://stborika.github.com/atom.xml" rel="self"/>
   <link href="http://stborika.github.com/"/>
-  <updated>2012-10-31T12:49:30+04:00</updated>
+  <updated>2012-10-31T13:21:46+04:00</updated>
   <id>http://stborika.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,65 @@
     <link href="http://stborika.github.com/blog/2012/10/30/title/"/>
     <updated>2012-10-30T20:43:00+04:00</updated>
     <id>http://stborika.github.com/blog/2012/10/30/title</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>=========</p>
+
+<p>Dillinger is a cloud-enabled HTML5 Markdown editor.</p>
+
+<ul>
+<li>Type some Markdown text in the left window</li>
+<li>See the HTML in the right</li>
+<li>Magic</li>
+</ul>
+
+
+<p>Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As <a href="http://daringfireball.net/">John Gruber</a> writes on the <a href="http://daringfireball.net/projects/markdown/">Markdown site</a>:</p>
+
+<blockquote><p>The overriding design goal for Markdown&#8217;s
+formatting syntax is to make it as readable
+as possible. The idea is that a
+Markdown-formatted document should be
+publishable as-is, as plain text, without
+looking like it&#8217;s been marked up with tags
+or formatting instructions.</p></blockquote>
+
+<p>This text your see here is <em>actually</em> written in Markdown! To get a feel for Markdown&#8217;s syntax, type some text into the left window and watch the results in the right.</p>
+
+<h2>Version</h2>
+
+<p>2.0</p>
+
+<h2>Tech</h2>
+
+<p>Dillinger uses a number of open source projects to work properly:</p>
+
+<ul>
+<li><a href="http://ace.ajax.org">Ace Editor</a> - awesome web-based text editor</li>
+<li><a href="http://www.attacklab.net/">Showdown</a> - a port of Markdown to JavaScript</li>
+<li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> - great UI boilerplate for modern web apps</li>
+<li><a href="http://nodejs.org">node.js</a> - evented I/O for the backend</li>
+<li><a href="http://expressjs.com">Express</a> - fast node.js network app framework <a href="http://twitter.com/tjholowaychuk">@tjholowaychuk</a></li>
+<li><a href="https://github.com/madrobby/keymaster">keymaster.js</a> - awesome keyboard handler lib by <a href="http://twitter.com/thomasfuchs">@thomasfuchs</a></li>
+<li><a href="http://jquery.com">jQuery</a> - duh</li>
+</ul>
+
+
+<h2>Installation</h2>
+
+<ol>
+<li>Clone the repo</li>
+<li><code>cd dillinger</code></li>
+<li><code>npm i</code></li>
+<li><code>mkdir -p public/files</code></li>
+<li><code>mkdir -p public/files/md &amp;&amp; mkdir -p public/files/html</code></li>
+<li><code>sudo node app</code></li>
+</ol>
+
+
+<h2>License</h2>
+
+<p>MIT</p>
+
+<p><em>Free Software, Fuck Yeah!</em></p>
 ]]></content>
   </entry>
   
